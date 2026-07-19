@@ -1,66 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birchwood Farm</title>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Birchwood Farm</title>
+
+<meta name="description"
+content="Birchwood Farm - Escape to the countryside and enjoy unforgettable farm experiences.">
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
-<header>
-    <h1>Birchwood Farm</h1>
+<div id="loader">
+<div class="spinner"></div>
+</div>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#visit">Visit</a>
-    </nav>
+<header>
+
+<div class="logo">
+
+🌿 Birchwood Farm
+
+</div>
+
+<nav id="navbar">
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#visit">Visit</a></li>
+
+<li><a href="#reviews">Reviews</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="menu-toggle">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
 </header>
 
-<section class="hero">
-    <h2>Welcome to Birchwood Farm</h2>
+<section id="home" class="hero">
 
-    <p>Enjoy the countryside, meet our animals and create lasting memories.</p>
+<div class="overlay"></div>
 
-    <a class="button" href="#">Book a Visit</a>
+<div class="hero-content">
+
+<h1>
+
+Welcome to Birchwood Farm
+
+</h1>
+
+<p>
+
+Escape to the countryside and create unforgettable memories.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#visit" class="btn">
+
+Plan Your Visit
+
+</a>
+
+<a
+href="https://YOURBOOKINGLINKHERE.com"
+class="btn secondary">
+
+Book Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="scroll-down">
+
+<i class="fa-solid fa-chevron-down"></i>
+
+</div>
+
 </section>
 
 <section id="about">
-    <h2>About Us</h2>
 
-    <p>
-        This is where we'll tell visitors about Birchwood Farm.
-    </p>
+<div class="container two-column">
+
+<div>
+
+<h2>
+
+About Birchwood Farm
+
+</h2>
+
+<p>
+
+Nestled in beautiful countryside,
+Birchwood Farm offers visitors the
+chance to slow down, reconnect with
+nature and enjoy peaceful surroundings.
+
+Replace this paragraph with your own
+story once you're ready.
+
+</p>
+
+<p>
+
+Whether you're visiting with family,
+friends or simply looking for a relaxing
+day outdoors, we look forward to
+welcoming you.
+
+</p>
+
+</div>
+
+<div>
+
+<img
+src="images/about.jpg"
+alt="Birchwood Farm">
+
+</div>
+
+</div>
+
 </section>
+
 <section id="gallery">
-    <h2>Gallery</h2>
 
-    <div class="gallery">
+<div class="container">
 
-        <img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=900&q=80">
+<h2>
 
-        <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80">
+Gallery
 
-        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80">
+</h2>
 
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80">
+<div class="gallery-grid">
+
+<img src="images/gallery1.jpg">
+
+<img src="images/gallery2.jpg">
+
+<img src="images/gallery3.jpg">
+
+<img src="images/gallery4.jpg">
+
+<img src="images/gallery1.jpg">
+
+<img src="images/gallery2.jpg">
+
+<img src="images/gallery3.jpg">
+
+<img src="images/gallery4.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+<section id="visit">
+
+<div class="container">
+
+<h2>
+
+Plan Your Visit
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>
+
+Opening Hours
+
+</h3>
+
+<p>
+
+Monday - Sunday
+
+9:00am - 5:00pm
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-car"></i>
+
+<h3>
+
+Parking
+
+</h3>
+
+<p>
+
+Free parking available
+for all visitors.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-mug-hot"></i>
+
+<h3>
+
+Facilities
+
+</h3>
+
+<p>
+
+Refreshments,
+toilets
+and picnic areas.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="center">
+
+<a
+href="https://YOURBOOKINGLINKHERE.com"
+class="btn">
+
+Book Your Visit
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<section id="reviews">
+
+    <div class="container">
+
+        <h2>Visitor Reviews</h2>
+
+        <div class="review-slider">
+
+            <div class="review active">
+                <p>
+                    "A wonderful day out with beautiful countryside views.
+                    We'll definitely be back!"
+                </p>
+                <h4>★★★★★ — Sarah W.</h4>
+            </div>
+
+            <div class="review">
+                <p>
+                    "Peaceful, relaxing and incredibly friendly.
+                    Highly recommended."
+                </p>
+                <h4>★★★★★ — James P.</h4>
+            </div>
+
+            <div class="review">
+                <p>
+                    "Perfect for families looking to escape busy city life."
+                </p>
+                <h4>★★★★★ — Emily R.</h4>
+            </div>
+
+        </div>
 
     </div>
-</section>
-<section id="visit">
-    <h2>Plan Your Visit</h2>
 
-    <a class="button" href="#">Book Now</a>
+</section>
+
+<section id="faq">
+
+    <div class="container">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+                Do I need to book in advance?
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. We recommend booking online before your visit.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+                Is parking available?
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. Free parking is available on site.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+                Are dogs allowed?
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Please contact us before visiting regarding dogs.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+                Are refreshments available?
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Tea, coffee and light refreshments are available.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="location">
+
+    <div class="container">
+
+        <h2>Find Us</h2>
+
+        <div class="map">
+
+            <iframe
+                src="https://www.google.com/maps?q=Yorkshire&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <div class="container contact-grid">
+
+        <div>
+
+            <h2>Contact Us</h2>
+
+            <p>
+
+                We'd love to hear from you.
+
+            </p>
+
+            <ul class="contact-list">
+
+                <li>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    01234 567890
+
+                </li>
+
+                <li>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    hello@birchwoodfarm.co.uk
+
+                </li>
+
+                <li>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Birchwood Farm,
+                    Your Village,
+                    United Kingdom
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Your Name">
+
+            <input
+                type="email"
+                placeholder="Email Address">
+
+            <textarea
+                rows="6"
+                placeholder="Message"></textarea>
+
+            <button
+                class="btn"
+                type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
 </section>
 
 <footer>
-    © Birchwood Farm
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>
+
+                Birchwood Farm
+
+            </h3>
+
+            <p>
+
+                Escape to the countryside.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>
+
+                Quick Links
+
+            </h3>
+
+            <ul>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#visit">Visit</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>
+
+                Follow Us
+
+            </h3>
+
+            <div class="socials">
+
+                <a href="#"><i class="fab fa-facebook"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+
+        © 2026 Birchwood Farm.
+        All Rights Reserved.
+
+    </p>
+
 </footer>
+
+<div id="lightbox">
+
+    <span id="close-lightbox">&times;</span>
+
+    <img id="lightbox-image">
+
+</div>
+
+<button id="backToTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
