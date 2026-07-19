@@ -5,234 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birchwood Farm</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-            font-family:Arial, Helvetica, sans-serif;
-            background:#f8f8f8;
-            color:#333;
-            line-height:1.6;
-        }
-
-        header{
-            background:#3b6b35;
-            color:white;
-            padding:20px;
-            position:sticky;
-            top:0;
-        }
-
-        nav{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            max-width:1100px;
-            margin:auto;
-        }
-
-        nav h2{
-            font-size:30px;
-        }
-
-        nav ul{
-            display:flex;
-            list-style:none;
-            gap:20px;
-        }
-
-        nav a{
-            color:white;
-            text-decoration:none;
-            font-weight:bold;
-        }
-
-        .hero{
-            height:70vh;
-            background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
-            url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1600&q=80");
-            background-size:cover;
-            background-position:center;
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            text-align:center;
-            color:white;
-        }
-
-        .hero h1{
-            font-size:60px;
-            margin-bottom:15px;
-        }
-
-        .hero p{
-            font-size:24px;
-            margin-bottom:25px;
-        }
-
-        .button{
-            display:inline-block;
-            background:#7db343;
-            color:white;
-            padding:15px 30px;
-            text-decoration:none;
-            border-radius:40px;
-            font-weight:bold;
-            transition:.3s;
-        }
-
-        .button:hover{
-            background:#5c8d2b;
-        }
-
-        section{
-            max-width:1100px;
-            margin:70px auto;
-            padding:0 20px;
-        }
-
-        h2{
-            color:#3b6b35;
-            margin-bottom:20px;
-            font-size:38px;
-        }
-
-        .gallery{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-            gap:20px;
-        }
-
-        .gallery img{
-            width:100%;
-            height:250px;
-            object-fit:cover;
-            border-radius:12px;
-            transition:.3s;
-        }
-
-        .gallery img:hover{
-            transform:scale(1.03);
-        }
-
-        footer{
-            background:#3b6b35;
-            color:white;
-            text-align:center;
-            padding:40px;
-            margin-top:60px;
-        }
-
-        @media(max-width:700px){
-
-            nav{
-                flex-direction:column;
-            }
-
-            nav ul{
-                margin-top:15px;
-                flex-wrap:wrap;
-                justify-content:center;
-            }
-
-            .hero h1{
-                font-size:40px;
-            }
-
-            .hero p{
-                font-size:20px;
-            }
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
+    <h1>Birchwood Farm</h1>
 
-<nav>
-
-<h2>🌿 Birchwood Farm</h2>
-
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#gallery">Gallery</a></li>
-<li><a href="#visit">Visit</a></li>
-</ul>
-
-</nav>
-
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+    </nav>
 </header>
 
 <section class="hero">
+    <h2>Welcome to Birchwood Farm</h2>
 
-<div>
+    <p>Enjoy the countryside, meet our animals and create lasting memories.</p>
 
-<h1>Welcome to Birchwood Farm</h1>
-
-<p>Experience the countryside, meet our animals and make unforgettable memories.</p>
-
-<a class="button" href="#">Book a Visit</a>
-
-</div>
-
+    <a class="button" href="#">Book a Visit</a>
 </section>
 
 <section id="about">
+    <h2>About Us</h2>
 
-<h2>About Us</h2>
-
-<p>
-Welcome to Birchwood Farm. Whether you're looking for a peaceful day in the countryside,
-want to meet our animals, or simply enjoy the beautiful surroundings, we'd love to welcome you.
-Replace this paragraph with your own story about the farm.
-</p>
-
+    <p>
+        This is where we'll tell visitors about Birchwood Farm.
+    </p>
 </section>
-
 <section id="gallery">
+    <h2>Gallery</h2>
 
-<h2>Farm Gallery</h2>
+    <div class="gallery">
 
-<div class="gallery">
+        <img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=900&q=80">
 
-<img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=900&q=80">
+        <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80">
 
-<img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80">
+        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80">
 
-<img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80">
 
-<img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80">
-
-</div>
-
+    </div>
 </section>
-
 <section id="visit">
+    <h2>Plan Your Visit</h2>
 
-<h2>Plan Your Visit</h2>
-
-<p>
-Ready to visit Birchwood Farm?
-</p>
-
-<br>
-
-<a class="button" href="#">Book Now</a>
-
+    <a class="button" href="#">Book Now</a>
 </section>
 
 <footer>
-
-<p>© 2026 Birchwood Farm</p>
-
+    © Birchwood Farm
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
